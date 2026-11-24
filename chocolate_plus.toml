@@ -1,0 +1,216 @@
+# M-VAVE Chocolate Plus (FootCtrlPlus): Advanced custom mode, Short = Bank A / Long = Bank B
+# Mensagens: { pc = N } ou { cc = N, value = V }; ch é opcional (padrão 1).
+model = "plus"
+groups = 8                 # Max Group Count (1-8)
+current_group = 1          # grupo ativo
+
+[interface]
+type = "expression"        # "expression" (Expression Pedal) ou "trs-midi" (TRS-MIDI)
+polarity_reversal = false
+codes = [                  # Expression / TRS-MIDI codes (até 16)
+  { cc = 64, loose = 0, step_on = 127 },
+]
+
+[group1.A]
+short = [
+  { pc = 0 },
+]
+long = [
+  { cc = 69, value = 0 },
+]
+
+[group1.B]
+short = [
+  { pc = 1 },
+]
+long = [
+  { cc = 69, value = 1 },
+]
+
+[group1.C]
+short = [
+  { pc = 2 },
+]
+long = [
+  { cc = 69, value = 2 },
+]
+
+[group1.D]
+short = [
+  { pc = 3 },
+]
+long = [
+  { cc = 69, value = 3 },
+]
+
+[group2.A]
+short = [
+  { pc = 4 },
+]
+long = [
+  { cc = 69, value = 0 },
+]
+
+
+[group2.B]
+short = [
+  { pc = 5 },
+]
+long = []
+
+[group2.C]
+short = [
+  { pc = 6 },
+]
+long = []
+
+[group2.D]
+short = [
+  { pc = 7 },
+]
+long = []
+
+[group3.A]
+short = [
+  { pc = 8 },
+]
+long = []
+
+[group3.B]
+short = [
+  { pc = 9 },
+]
+long = []
+
+[group3.C]
+short = [
+  { pc = 10 },
+]
+long = []
+
+[group3.D]
+short = [
+  { pc = 11 },
+]
+long = []
+
+[group4.A]
+short = [
+  { pc = 12 },
+]
+long = []
+
+[group4.B]
+short = [
+  { pc = 13 },
+]
+long = []
+
+[group4.C]
+short = [
+  { pc = 14 },
+]
+long = []
+
+[group4.D]
+short = [
+  { pc = 15 },
+]
+long = []
+
+[group5.A]
+short = [
+  { pc = 16 },
+]
+long = []
+
+[group5.B]
+short = [
+  { pc = 17 },
+]
+long = []
+
+[group5.C]
+short = [
+  { pc = 18 },
+]
+long = []
+
+[group5.D]
+short = [
+  { pc = 19 },
+]
+long = []
+
+[group6.A]
+short = [
+  { pc = 20 },
+]
+long = []
+
+[group6.B]
+short = [
+  { pc = 21 },
+]
+long = []
+
+[group6.C]
+short = [
+  { pc = 22 },
+]
+long = []
+
+[group6.D]
+short = [
+  { pc = 23 },
+]
+long = []
+
+[group7.A]
+short = [
+  { pc = 24 },
+]
+long = []
+
+[group7.B]
+short = [
+  { pc = 25 },
+]
+long = []
+
+[group7.C]
+short = [
+  { pc = 26 },
+]
+long = []
+
+[group7.D]
+short = [
+  { pc = 27 },
+]
+long = []
+
+[group8.A]
+short = [
+  { pc = 28 },
+]
+long = []
+
+[group8.B]
+short = [
+  { pc = 29 },
+]
+long = []
+
+[group8.C]
+short = [
+  { pc = 30 },
+]
+long = []
+
+[group8.D]
+short = [
+  { pc = 31 },
+]
+long = []
+

@@ -1,0 +1,43 @@
+# M-VAVE Chocolate (FootCtrl): Advanced custom mode, Short = Bank A / Long = Bank B
+# Mensagens: { pc = N } ou { cc = N, value = V }; ch é opcional (padrão 1).
+model = "chocolate"
+
+[interface]
+#type = "trs-midi"        # "expression" (Expression Pedal) ou "trs-midi" (TRS-MIDI)
+type = "expression"        # "expression" (Expression Pedal) ou "trs-midi" (TRS-MIDI)
+codes = [                  # Expression / TRS-MIDI codes (até 16)
+  { cc = 64, loose = 0, step_on = 127, ch = 1 },
+]
+
+[A]
+short = [
+  { cc = 69, value = 0 },
+]
+long = [
+  { pc = 0 },
+]
+
+[B]
+short = [
+  { cc = 69, value = 1 },
+]
+long = [
+  { pc = 1 },
+]
+
+[C]
+short = [
+  { cc = 69, value = 2 },
+]
+long = [
+  { pc = 2 },
+]
+
+[D]
+short = [
+  { cc = 69, value = 3 },
+]
+long = [
+  { pc = 3 },
+]
+

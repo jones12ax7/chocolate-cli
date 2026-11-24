@@ -1,0 +1,235 @@
+# M-VAVE Chocolate Plus (FootCtrlPlus): Advanced custom mode, Short = Bank A / Long = Bank B
+# Mensagens: { pc = N } ou { cc = N, value = V }; ch é opcional (padrão 1).
+model = "plus"
+groups = 8                 # Max Group Count (1-8)
+current_group = 1          # grupo ativo
+
+[interface]
+type = "expression"        # "expression" (Expression Pedal) ou "trs-midi" (TRS-MIDI)
+polarity_reversal = false
+codes = []                 # Expression / TRS-MIDI codes (até 16)
+
+[group1.A]
+short = [
+  { cc = 69, value = 0 },
+]
+long = [
+  { pc = 0 },
+]
+
+[group1.B]
+short = [
+  { pc = 1 },
+]
+long = []
+
+[group1.C]
+short = [
+  { cc = 69, value = 2 },
+]
+long = [
+  { cc = 3, value = 0 },
+]
+
+[group1.D]
+short = [
+  { cc = 69, value = 3 },
+]
+long = [
+  { cc = 4, value = 0 },
+]
+
+[group2.A]
+short = [
+  { pc = 4 },
+]
+long = []
+
+[group2.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 5 },
+]
+long = []
+
+[group2.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 6 },
+]
+long = []
+
+[group2.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 7 },
+]
+long = []
+
+[group3.A]
+short = [
+  { pc = 8 },
+]
+long = []
+
+[group3.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 9 },
+]
+long = []
+
+[group3.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 10 },
+]
+long = []
+
+[group3.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 11 },
+]
+long = []
+
+[group4.A]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 12 },
+]
+long = []
+
+[group4.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 13 },
+]
+long = []
+
+[group4.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 14 },
+]
+long = []
+
+[group4.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 15 },
+]
+long = []
+
+[group5.A]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 16 },
+]
+long = []
+
+[group5.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 17 },
+]
+long = []
+
+[group5.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 18 },
+]
+long = []
+
+[group5.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 19 },
+]
+long = []
+
+[group6.A]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 20 },
+]
+long = []
+
+[group6.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 21 },
+]
+long = []
+
+[group6.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 22 },
+]
+long = []
+
+[group6.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 23 },
+]
+long = []
+
+[group7.A]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 24 },
+]
+long = []
+
+[group7.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 25 },
+]
+long = []
+
+[group7.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 26 },
+]
+long = []
+
+[group7.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 27 },
+]
+long = []
+
+[group8.A]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 28 },
+]
+long = []
+
+[group8.B]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 29 },
+]
+long = []
+
+[group8.C]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 30 },
+]
+long = []
+
+[group8.D]
+# ATENÇÃO: working mode atual = 0 (não é Short = Bank A / Long = Bank B)
+short = [
+  { pc = 31 },
+]
+long = []
+
